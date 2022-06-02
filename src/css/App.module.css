@@ -1,4 +1,6 @@
-/* .background {
-    background: url(../assets/svg/Background.svg) no-repeat;
-    background-size: 100vw auto;
-} */
+.buttonContainer {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 300px;
+}
