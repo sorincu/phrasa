@@ -1,6 +1,28 @@
 .buttonContainer {
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 300px;
+}
+
+.navbar {
+  padding: 15px;
+  color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bgNavbar {
+  backdrop-filter: blur(6px);
+  background-color: rgba(7, 26, 47, 80%);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+.logo:hover {
+  cursor: pointer;
 }

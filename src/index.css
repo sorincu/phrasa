@@ -1,9 +1,16 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* CSS-variables declaration */
+:root {
+  --primary-color: #0076c6;
+  --secondary-color: #fff;
+  --border-color: rgb(19, 47, 76);
 }
 
 body {
-    background: gray;
+  background: rgb(0, 30, 60);
 }
