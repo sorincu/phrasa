@@ -11,19 +11,25 @@ function App() {
       </div>
 
       <div className={styles.bannerContainer}>
-        <h1 className={`${styles.banner} ${styles.primaryColor}`}>Listen.&#160;</h1>
+        <h1 className={`${styles.banner} ${styles.primaryColor}`}>
+          Listen.&#160;
+        </h1>
         <h1 className={styles.banner}>Experience.&#160;</h1>
         <h1 className={styles.banner}>Repeat.</h1>
       </div>
 
-      <div className={styles.buttonContainer}>
-        <button className={styles.btn}>
-          Import From Youtube
-        </button>
+      <div className={styles.bannerDescriptionContainer}>
+        <p className={styles.bannerDescription}>
+          Learn from any audio-source by repeating a musical phrase. A tool
+          encouraging hands-on practice, supporting you on the road to musical
+          proficiency.
+        </p>
+      </div>
 
-        <button className={styles.btn}>
-          Audiofile
-        </button>
+      <div className={styles.buttonContainer}>
+        <button className={styles.btn}>Import From Youtube</button>
+
+        <button className={styles.btn}>Audiofile</button>
       </div>
     </div>
   );
