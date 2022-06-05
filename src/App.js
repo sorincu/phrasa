@@ -29,7 +29,7 @@ function App() {
       <div className={styles.buttonContainer}>
         <button className={styles.btn}>Import From Youtube</button>
 
-        <button className={styles.btn}>Audiofile</button>
+        <button className={styles.btn}>Import Audiofile</button>
       </div>
     </div>
   );
