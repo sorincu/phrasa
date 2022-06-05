@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +9,7 @@
 
 /* CSS-variables declaration */
 :root {
-  --primary-color: #0076c6;
+  --primary-color: #3399ff;
   --secondary-color: #fff;
   --border-color: rgb(19, 47, 76);
 }

@@ -1,10 +1,3 @@
-.buttonContainer {
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-evenly;
-  margin: 300px;
-}
-
 .navbar {
   padding: 15px;
   color: white;
@@ -25,4 +18,80 @@
 
 .logo:hover {
   cursor: pointer;
+}
+
+.bannerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.banner {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: clamp(2.625rem, 1.2857rem + 3.5714vw, 4rem);
+  font-weight: 800;
+  color: white;
+}
+
+.buttonContainer {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.buttonContainer > * {
+  margin: 0 20px;
+}
+
+.btn {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  outline: 0px;
+  border: 0px;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  appearance: none;
+  text-decoration: none;
+  text-transform: initial;
+  min-width: 64px;
+  border-radius: 10px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition-property: background-color, box-shadow, border-color, color;
+  transition-duration: 250ms, 250ms, 250ms, 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1),
+    cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1),
+    cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0ms, 0ms, 0ms, 0ms;
+  box-shadow: none;
+  background-color: rgb(0, 127, 255);
+  color: rgb(255, 255, 255);
+  padding: 0.875rem 1rem;
+  font-size: 1rem;
+  line-height: 1.3125;
+  letter-spacing: 0px;
+  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 700;
+}
+
+.btn:hover {
+  text-decoration: none;
+  background-color: rgb(0, 89, 178);
+}
+
+/* Additional classes */
+.primaryColor {
+  color: var(--primary-color);
 }

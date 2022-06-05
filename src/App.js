@@ -10,14 +10,20 @@ function App() {
         </div>
       </div>
 
-      <div className={styles.buttonContainer}>
-        <Button color="info" variant="contained" size="large">
-          Import From Youtube
-        </Button>
+      <div className={styles.bannerContainer}>
+        <h1 className={`${styles.banner} ${styles.primaryColor}`}>Listen.&#160;</h1>
+        <h1 className={styles.banner}>Experience.&#160;</h1>
+        <h1 className={styles.banner}>Repeat.</h1>
+      </div>
 
-        <Button color="info" variant="contained" size="large">
+      <div className={styles.buttonContainer}>
+        <button className={styles.btn}>
+          Import From Youtube
+        </button>
+
+        <button className={styles.btn}>
           Audiofile
-        </Button>
+        </button>
       </div>
     </div>
   );
