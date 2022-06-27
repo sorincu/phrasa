@@ -1,5 +1,7 @@
+import React from "react";
+
 import styles from "./css/App.module.css";
-import Button from "@mui/material/Button";
+import CssTextField from "./components/CssTextField";
 
 function App() {
   return (
@@ -28,9 +30,18 @@ function App() {
       </div>
 
       <div className={styles.buttonContainer}>
-        <button className={styles.btn}>Import from Youtube</button>
-        <button className={styles.btn}>Import from Spotify</button>
-        <button className={styles.btn}>Import Audiofile</button>
+        <CssTextField
+          label="Username"
+
+          className="username"
+          name="username"
+          onChange={this.onChange}
+          type="text"
+          autoComplete="current-password"
+          margin="normal"
+          inputProps={{ style: { fontFamily: 'nunito', color: 'white'}}}
+        />
+        <button className={styles.btn}>Search</button>
       </div>
     </div>
   );

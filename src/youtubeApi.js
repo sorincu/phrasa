@@ -3,9 +3,9 @@ require('dotenv').config();
 const { google } = require('googleapis');
 
 google.youtube('v3').search.list({
-    key: process.env.YOUTUBE_TOKEN,
+    key: process.env.REACT_APP_YOUTUBE_TOKEN,
     part: 'snippet',
-    q: 'aphex',
+    q: 'venetian snares',
     maxResults: 5,
 }).then((response) => {
     const { data } = response;
