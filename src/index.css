@@ -9,7 +9,7 @@
 
 /* CSS-variables declaration */
 :root {
-  --primary-color: #3399ff;
+  --primary-color: rgb(0, 127, 255);
   --secondary-color: #fff;
   --border-color: rgb(19, 47, 76);
 }

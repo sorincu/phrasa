@@ -1,7 +1,6 @@
 import React from "react";
-
 import styles from "./css/App.module.css";
-import { TextField } from "@mui/material";
+import Input from "@mui/material/Input";
 
 function App() {
   return (
@@ -9,7 +8,7 @@ function App() {
       <div className={styles.bgNavbar}>
         <div className={styles.navbar}>
           <h2 className={styles.logo}>phrasa.</h2>
-          <button className={styles.btn}>Buy me a coffee</button>
+          <button className={styles.btn}>Coffee</button>
         </div>
       </div>
 
@@ -30,9 +29,16 @@ function App() {
       </div>
 
       <div className={styles.buttonContainer}>
-        <TextField label="Search" variant="outlined" sx={{
-          width: '300px'
-        }} />
+        <Input
+          label="Search"
+          sx={{
+            width: "300px",
+            color: "white",
+            input: {
+              color: "white",
+            },
+          }}
+        />
         <button className={styles.btn}>Search</button>
       </div>
     </div>
